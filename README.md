@@ -1,4 +1,10 @@
-# BBTree
+# Z+Tree: A Write-Optimized B+Tree Index on ZNS SSDs
+
+## Requirements
+
+```
+ZNS device and conventional SSD device.
+```
 
 ## Pre
 
@@ -35,4 +41,3 @@ Sources File: ./test/benchmark.cpp and ./zbtree/config.h
 ```zsh
 find . \( -iname "*.h" -o -iname "*.cpp" \) -print0 | xargs -0 clang-format -i -style=file
 ```
-[clang-format-Ref](https://juejin.cn/post/7252500978556649528)
